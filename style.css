@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    background-color:rgb(71, 4, 80);
+    color: white;
+    
+}
+
+header img {
+    width: 100px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.info article {
+    margin: 20px;
+    background-color: gray;
+    padding: 20px 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+nav a { 
+     text-decoration: none;
+     color: black;
+     background-color: white;
+     padding: 10px;
+     border: 3px solid black;
+     box-shadow: 3px 5px 0 black;
+     margin: 20px;
+     font-size: 18px;
+}
+
+.button {
+     background-color: rgb(255, 134, 255);
+}
+
+header img {
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 15px;
+}
+
+.info article img {
+    width: 250px; height: 150px;
+}
+
+.article-but {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: aliceblue;
+}
+
+.article-but:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+footer {
+  background-color: gray;
+  margin: 0;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  padding: 15px 5px 5px 15px;
+}
